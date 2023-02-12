@@ -1,2 +1,2 @@
 # Wordle #
-This is a word game.
+This is my first word game.
