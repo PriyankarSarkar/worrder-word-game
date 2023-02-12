@@ -199,11 +199,11 @@ body{
     top: 70px;
     flex-wrap: wrap;
     margin: 2px 5px;
-    padding: 5px;
+    padding: 5px 10px;
     border-radius: 5px;
     border: none;
     text-align: center;
-    background-color: white;
+    background-color: gold;
     animation: alert_fade 1s;
     display: none;
 }
