@@ -114,7 +114,9 @@ async function flip_row(target, current){
     for(let i=0; i<5; i++)
     {
         cells[Obj.row_start+i].classList.add("flip");
+        delete_key.disabled = true;
         await sleep(500);
+        delete_key.disabled = false;
 
         if(current.charAt(i).toLowerCase() == target.charAt(i).toLowerCase())
             cells[Obj.row_start+i].style.backgroundColor = "#538d4e";
