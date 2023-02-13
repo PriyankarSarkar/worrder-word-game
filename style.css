@@ -47,20 +47,20 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
     padding: 4px;
-    border-radius: 50%;
-    cursor: pointer;
+    gap: 12px;
 }
 
 .profile_link{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .profile_icon{
-    width: 25px;
+    width: 30px;
+    filter: invert();
 }
 
 /* GRID */
