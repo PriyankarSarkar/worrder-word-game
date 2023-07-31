@@ -1,2 +1,3 @@
 # Worrder #
-This is my first word game.
+This is my first word game. <br>
+Tech stack: HTML, CSS, JAVASCRIPT
